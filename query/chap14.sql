@@ -5,7 +5,7 @@ create table MEMBER (
     EMAIL		VARCHAR(80)
 );
 
-INSERT INTO MEMBER (MEMBERID, PASSWORD, NAME) VALUES('madvirus', '1234', '최범균');
+INSERT INTO MEMBER (MEMBERID, PASSWORD, NAME, EMAIL) VALUES('era13', 'qwer', '최범균', 'madvirus@naver.com');
 
 select * from member;
 
